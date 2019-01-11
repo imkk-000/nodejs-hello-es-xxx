@@ -1,6 +1,5 @@
 #!/bin/bash
 
-read user
-read -s pass
-echo
-echo "Username $user, Password $pass"
+read -a array
+echo $array
+echo ${array[0]}
