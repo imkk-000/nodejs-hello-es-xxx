@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-echo "Enter your name"
-read firstname lastname
-echo "Your firstname is $firstname"
-echo "Your lastname is $lastname"
+read user
+read -s pass
+echo
+echo "Username $user, Password $pass"
